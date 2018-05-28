@@ -1,0 +1,37 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Add Tenant</title>
+</head>
+<body>
+
+	<form wicket:id="form">
+		<center><table>
+		<form wicket:id="form1">
+			<tr>
+				<td><b>Name:</b></td>
+				<td><input type="text" wicket:id="name" /></td>
+			</tr>
+			</form>
+			<form wicket:id="form2">
+			<tr>
+				<td><b>Login:</b></td>
+				<td><input type="text" wicket:id="login" /></td>
+			</tr>
+			<tr>
+				<td><b>Password:</b></td>
+				<td><input type="text" wicket:id="password" /></td>
+			</tr>
+			</form>
+		</table></center>
+		<center><div>
+			<p>
+				<button type="submit" wicket:id="save">save</button>
+				<button type="button" wicket:id="cancel">cancel</button>
+			</p>
+		</div></center>
+	</form>
+	<div wicket:id="feedback"></div>
+
+</body>
+</html>

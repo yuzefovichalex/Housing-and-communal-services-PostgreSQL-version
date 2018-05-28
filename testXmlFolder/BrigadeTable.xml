@@ -1,0 +1,8 @@
+<by.grsu.yuzefovich.table.BrigadeTable>
+  <rows>
+    <by.grsu.yuzefovich.datamodel.Brigade>
+      <id>136399765721745</id>
+      <numberOfWorkers>3</numberOfWorkers>
+    </by.grsu.yuzefovich.datamodel.Brigade>
+  </rows>
+</by.grsu.yuzefovich.table.BrigadeTable>

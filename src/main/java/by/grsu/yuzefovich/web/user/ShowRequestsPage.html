@@ -1,0 +1,34 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Show Requests</title>
+</head>
+<body>
+<center>
+	<table cellspacing="10" width="1000" class="dataview">
+    <tbody>
+	<tr>
+        <th>ID</th>
+        <th>Type of work (what)</th>
+        <th>Scope of work (square, m^2)</th>
+        <th>Lead time (hours)</th>
+		<th>Status</th>
+		<th>Brigade (men)</th> 
+    </tr>
+       <tr wicket:id="simple">
+         <td align="center"><span wicket:id="id">ID</span></td>
+		 <td align="center"><span wicket:id="typeOfWork">TypeOfWork</span></td>
+		 <td align="center"><span wicket:id="scopeOfWork">ScopeOfWork</span></td>
+		 <td align="center"><span wicket:id="leadTime">LeadTime</span></td>
+		 <td align="center"><span wicket:id="isAccepted">IsAccepted</span></td>
+		 <td align="center"><span wicket:id="brigade">Brigade</span></td>
+       </tr>
+    </tbody>
+</table>
+
+<center><a wicket:id="addRequest">Add Request</a></center>
+<center><a wicket:id="userPage">Back</a></center>
+
+</center>
+</body>
+</html>

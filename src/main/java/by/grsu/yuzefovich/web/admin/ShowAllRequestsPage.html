@@ -1,0 +1,39 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Show Requests</title>
+</head>
+<body>
+<center>
+	<table cellspacing="10" width="1200" class="dataview">
+    <tbody>
+	<tr>
+        <th>ID</th>
+		<th>Tenant Name</th>
+        <th>Type of work (what)</th>
+        <th>Scope of work (square, m^2)</th>
+        <th>Lead time (hours)</th>
+		<th>Status</th>
+		<th>Brigade (men)</th>
+        <th>Accept/Change</th>
+        <th>Delete</th>		
+    </tr>
+       <tr wicket:id="simple">
+         <td align="center"><span wicket:id="id">ID</span></td>
+		 <td align="center"><span wicket:id="tenantName">TenantName</span></td>
+		 <td align="center"><span wicket:id="typeOfWork">TypeOfWork</span></td>
+		 <td align="center"><span wicket:id="scopeOfWork">ScopeOfWork</span></td>
+		 <td align="center"><span wicket:id="leadTime">LeadTime</span></td>
+		 <td align="center"><span wicket:id="isAccepted">IsAccepted</span></td>
+		 <td align="center"><span wicket:id="brigade">Brigade</span></td>
+		 <td align="center"><a wicket:id="acceptionAndChanging"><wicket:container wicket:id="label" /></a></td>
+		 <td align="center"><a wicket:id="deleting">Delete</a></td>
+       </tr>
+    </tbody>
+</table>
+
+<center><a wicket:id="userPage">Back</a></center>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<by.grsu.yuzefovich.table.UserAccessDataTable>
+  <rows>
+    <by.grsu.yuzefovich.datamodel.UserAccessData>
+      <id>23927578536199</id>
+      <login>user</login>
+      <password>user</password>
+    </by.grsu.yuzefovich.datamodel.UserAccessData>
+    <by.grsu.yuzefovich.datamodel.UserAccessData>
+      <id>23927580963769</id>
+      <login>user1</login>
+      <password>user1</password>
+    </by.grsu.yuzefovich.datamodel.UserAccessData>
+    <by.grsu.yuzefovich.datamodel.UserAccessData>
+      <id>131197270422745</id>
+      <login>user2</login>
+      <password>user2</password>
+    </by.grsu.yuzefovich.datamodel.UserAccessData>
+    <by.grsu.yuzefovich.datamodel.UserAccessData>
+      <id>133677469807300</id>
+      <login>user3</login>
+      <password>user3</password>
+    </by.grsu.yuzefovich.datamodel.UserAccessData>
+  </rows>
+</by.grsu.yuzefovich.table.UserAccessDataTable>

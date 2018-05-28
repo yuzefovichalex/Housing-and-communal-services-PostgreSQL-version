@@ -1,0 +1,33 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Add Request</title>
+</head>
+<body>
+
+	<form wicket:id="form">
+		<center><table>
+			<tr>
+				<td><b>Type of work:</b></td>
+				<td><input type="text" wicket:id="typeOfWork" /></td>
+			</tr>
+			<tr>
+				<td><b>Scope of work:</b></td>
+				<td><input type="text" wicket:id="scopeOfWork" /></td>
+			</tr>
+			<tr>
+				<td><b>Lead time:</b></td>
+				<td><input type="text" wicket:id="leadTime" /></td>
+			</tr>
+		</table></center>
+		<center><div>
+			<p>
+				<button type="submit" wicket:id="save">save</button>
+				<button type="button" wicket:id="cancel">cancel</button>
+			</p>
+		</div></center>
+	</form>
+	<div wicket:id="feedback"></div>
+
+</body>
+</html>

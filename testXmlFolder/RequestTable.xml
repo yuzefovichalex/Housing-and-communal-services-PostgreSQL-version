@@ -1,0 +1,21 @@
+<by.grsu.yuzefovich.table.RequestTable>
+  <rows>
+    <by.grsu.yuzefovich.datamodel.Request>
+      <id>136280676491408</id>
+      <typeOfWork>ex</typeOfWork>
+      <scopeOfWork>1</scopeOfWork>
+      <leadTime>1</leadTime>
+      <isAccepted>false</isAccepted>
+    </by.grsu.yuzefovich.datamodel.Request>
+    <by.grsu.yuzefovich.datamodel.Request>
+      <id>136314319872630</id>
+      <typeOfWork>ex</typeOfWork>
+      <scopeOfWork>3</scopeOfWork>
+      <leadTime>3</leadTime>
+      <brigade>
+        <id>136399765721745</id>
+      </brigade>
+      <isAccepted>true</isAccepted>
+    </by.grsu.yuzefovich.datamodel.Request>
+  </rows>
+</by.grsu.yuzefovich.table.RequestTable>
